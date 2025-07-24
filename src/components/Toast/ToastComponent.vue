@@ -7,11 +7,11 @@ defineProps<{
 </script>
 
 <template>
-  <div :class="` flex gap-2 h-24 mb-2 rounded-lg shadow-lg overflow-hidden`">
+  <div :class="`flex bg-white/30 backdrop-blur-sm gap-2 h-24 mb-2 rounded-lg shadow-lg overflow-hidden`">
     <div :class="`bg-${type} w-2 h-24`"></div>
     <div class="flex flex-col justify-center">
-      <p :class="` font-semibold capitalize`">{{ title }}</p>
-      <p :class="``">{{ message }}</p>
+      <p class="font-semibold capitalize">{{ title }}</p>
+      <p>{{ message }}</p>
     </div>
   </div>
 </template>

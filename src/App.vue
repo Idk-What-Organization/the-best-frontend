@@ -20,7 +20,7 @@ onMounted(() => {
     <!-- Blocker Mobile -->
     <div
       v-if="isMobile"
-      class="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center"
+      class="fixed inset-0 z-50 bg-white/30 backdrop-blur-sm flex items-center justify-center"
     >
       <div class="bg-white p-6 rounded shadow text-center max-w-sm">
         <h2 class="text-xl font-bold mb-2">Coming Soon</h2>

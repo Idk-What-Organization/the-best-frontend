@@ -17,7 +17,7 @@ const MAX_TOASTS = 5
 export function showToast(
   title: string,
   message: string,
-  type: 'success' | 'error' | 'warning' = 'success',
+  type: 'success' | 'error' | 'warning',
   duration = 3000,
 ) {
   const id = ++toastId
